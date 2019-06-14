@@ -14,7 +14,7 @@ volumes:[
 ]){
 
   node ('jenkins-pipeline') {
-	  dir(complete){
+	  dir('complete'){
     def pwd = pwd()
     def chart_dir = "${pwd}/charts/hellojava"
     def tags = [env.BUILD_TAG, 'latest']
