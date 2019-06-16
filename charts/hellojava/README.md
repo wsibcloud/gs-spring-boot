@@ -1,0 +1,1 @@
+# Hello Java - Helm Chart version 2

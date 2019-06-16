@@ -1,0 +1,8 @@
+name: hellojava
+home: https://github.com/wsibcloud/eValidation
+version: 0.1.0
+description: Java SpringBoot Hello World API
+sources:
+  - https://github.com/wsibcloud/eValidation
+maintainers:
+  - name: Allan Shao
