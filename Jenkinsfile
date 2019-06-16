@@ -42,7 +42,7 @@ volumes:[
           pwd
           ls -ltra
           cp todo-app-java-on-azure-1.0-SNAPSHOT.jar app.jar 
-          apt-get update && apt-get install -y bzip2 unzip
+          apt-get update && apt-get install -y bzip2 zip unzip
           zip todo.zip app.jar web.config
 	'''
           def resourceGroup = 'csmworkersportal'
