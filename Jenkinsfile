@@ -35,7 +35,8 @@ volumes:[
 
       container ('maven') {
 	sh '''
-          mvn clean package
+          mvn clean
+          mvn package
           cd target
           cp ../src/main/resources/web.config web.config
           pwd
